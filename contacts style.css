@@ -1,4 +1,7 @@
 body{
+  background-color: black;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
 a {
   text-decoration: none;
@@ -14,7 +17,9 @@ h2, h3 {
   color: #2c5f2d;
 }
 
-
+p {
+  color: blue;
+}
 
 h4 {
   color: black;
@@ -54,10 +59,7 @@ h4 {
     font-family: Arial;
 }
 
-#main {
-    width: 600px;
-    float: right;
-}
+
 
 #footer {
     clear: both;
