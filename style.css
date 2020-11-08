@@ -1,5 +1,16 @@
 body{
-  background-color: #eeeeee;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 #container {
@@ -13,4 +24,37 @@ body{
     background-color: #66ccff;
     color: white;
     text-align: center;
+    padding: 10px;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav .selected {
+    front-weight: bold;
+    font-family: Arial; 
+}
+
+#main {
+    width: 600px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+    padding: 5px;
 }
