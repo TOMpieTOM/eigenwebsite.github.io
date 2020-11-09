@@ -1,5 +1,5 @@
 body {
-  background-color: black; 
+  background-color: black;
 }
 a {
   text-decoration: none;
@@ -15,7 +15,9 @@ h2, h3 {
   color: #2c5f2d;
 }
 
-
+p {
+  color: black; 
+}
 
 h4 {
   color: black;
